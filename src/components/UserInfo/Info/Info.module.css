@@ -1,0 +1,27 @@
+.Info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Info > div:first-child {
+  font-size: 25px;
+  font-weight: 800;
+  color: aliceblue;
+}
+
+.Info > div:last-child {
+  font-size: 17px;
+  font-weight: 800;
+  color: #236bc7;
+}
+
+@media (max-width: 500px) {
+  .Info > div:first-child {
+    font-size: 20px;
+  }
+
+  .Info > div:last-child {
+    font-size: 12px;
+  }
+}

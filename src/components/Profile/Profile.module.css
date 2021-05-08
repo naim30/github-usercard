@@ -1,0 +1,36 @@
+.Profile {
+  box-sizing: border-box;
+  padding: 20px 0px;
+}
+
+.Profile .Image {
+  height: 130px;
+  border-radius: 100px;
+}
+
+.Profile .Username {
+  font-weight: 800;
+  font-size: 25px;
+  color: #4568bd;
+}
+
+.Profile .Location {
+  font-weight: 800;
+  font-size: 20px;
+  color: #bdcbcf;
+}
+
+@media (max-width: 500px) {
+  .Profile .Image {
+    height: 100px;
+    border-radius: 100px;
+  }
+
+  .Profile .Username {
+    font-size: 20px;
+  }
+
+  .Profile .Location {
+    font-size: 15px;
+  }
+}

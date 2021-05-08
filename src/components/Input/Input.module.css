@@ -1,0 +1,22 @@
+.Input {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background-color: #e6ebed;
+  border-radius: 5px 5px 0px 0px;
+  padding: 20px;
+  caret-color: #1a4e8e;
+  font-size: 16px;
+  color: #1a4e8e;
+  text-align: center;
+}
+
+.Input:focus {
+  outline: none;
+}
+
+@media (max-width: 500px) {
+  .Input {
+    font-size: 12px;
+  }
+}
