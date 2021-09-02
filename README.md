@@ -2,7 +2,7 @@
 
 ## Demo
 
-you can see demo [here](https://naim30.github.io/github_usercard/).
+you can see demo [here](https://naim30.github.io/github-usercard/).
 
 # Getting Started with Create React App
 
